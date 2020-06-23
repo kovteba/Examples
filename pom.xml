@@ -12,11 +12,22 @@
     <modules>
         <module>tomcat1</module>
         <module>tomcat2</module>
+
         <module>spring1</module>
         <module>spring2</module>
         <module>spring3</module>
         <module>spring4</module>
         <module>spring5</module>
+        <module>spring6</module>
+
+        <module>example1</module>
+        <module>example2</module>
+        <module>example3</module>
+        <module>example4</module>
+        <module>example5</module>
+        <module>example6</module>
+        <module>example7</module>
+        <module>example8</module>
     </modules>
 
     <properties>

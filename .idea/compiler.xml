@@ -7,13 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring1" />
         <module name="tomcat2" />
         <module name="tomcat1" />
-        <module name="spring5" />
-        <module name="spring4" />
-        <module name="spring3" />
+        <module name="example8" />
+        <module name="example7" />
+        <module name="example6" />
+        <module name="example5" />
+        <module name="example4" />
+        <module name="example3" />
+        <module name="example2" />
+        <module name="example1" />
         <module name="spring2" />
+        <module name="spring1" />
+        <module name="spring6" />
+        <module name="spring3" />
+        <module name="spring4" />
+        <module name="spring5" />
       </profile>
     </annotationProcessing>
   </component>
