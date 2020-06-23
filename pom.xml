@@ -28,6 +28,7 @@
         <module>example6</module>
         <module>example7</module>
         <module>example8</module>
+        <module>spring7</module>
     </modules>
 
     <properties>
