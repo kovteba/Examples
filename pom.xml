@@ -29,6 +29,8 @@
         <module>example7</module>
         <module>example8</module>
         <module>spring7</module>
+        <module>internationalization</module>
+        <module>internationalization</module>
     </modules>
 
     <properties>
