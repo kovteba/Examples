@@ -25,7 +25,7 @@
 - [My Stack](example6)
 - [Chess Horse](example7)
 - [Binary Tree](example8)
-- []()
+- [Internationalization](internationalization)
 - []()
 - []()
 ---
