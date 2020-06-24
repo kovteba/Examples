@@ -3,13 +3,13 @@
 - [Start TomCat with Idea Configuration](tomcat1)
 - [Run Tomcat with TomCat plugins](tomcat2)
 ---
-- __Spring__
-    - __Dependency Lookup__
+- Spring
+    - Dependency Lookup
         - [Dependency Pull](spring1)
         - [Contextualized Dependency](spring2)
         - [Lookup Method Injection](spring8)
-    - __Dependency Injection__
-        - __XML configuration__
+    - Dependency Injection
+        - XML configuration
             - [Constructor Dependency Injection](spring3)
             - [Setter Dependency Injection](spring4)
             - [Method Replacement](spring9)
