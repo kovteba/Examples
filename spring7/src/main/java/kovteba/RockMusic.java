@@ -1,7 +1,5 @@
 package kovteba;
 
-import org.springframework.stereotype.Component;
-
 public class RockMusic implements Music {
 
    @Override
