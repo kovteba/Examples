@@ -4,13 +4,14 @@
 - [Run Tomcat with TomCat plugins](tomcat2)
 ---
 - __Spring__
-    - [Dependency Lookup]()
+    - __Dependency Lookup__
         - [Dependency Pull](spring1)
         - [Contextualized Dependency](spring2)
-    - [Dependency Injection]()
-        - [XML configuration]()
+    - __Dependency Injection__
+        - __XML configuration__
             - [Constructor Dependency Injection](spring3)
             - [Setter Dependency Injection](spring4)
+            - [Lookup Method Injection](spring8)
         - [Annotation configuration](spring6)
         - [Java configuration](spring7)
 - [Example @Value](spring5)

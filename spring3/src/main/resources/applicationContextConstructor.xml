@@ -13,7 +13,7 @@
         <bean id="classicMusicBean" class="kovteba.ClassicalMusic"/>
         <bean id="musicPlayer" class="kovteba.MusicPlayer">
             <constructor-arg index="0" ref="classicMusicBean"/>
-            <constructor-arg index="1" value="120"/>
+            <constructor-arg type="int" index="1" value="120"/>
         </bean>
 
 </beans>

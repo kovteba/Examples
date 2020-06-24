@@ -31,7 +31,8 @@
         <module>example8</module>
 
         <module>internationalization</module>
-<!--        <module>internationalization</module>-->
+        <module>spring8</module>
+        <!--        <module>internationalization</module>-->
     </modules>
 
     <properties>
