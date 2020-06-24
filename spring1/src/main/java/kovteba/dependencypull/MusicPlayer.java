@@ -6,7 +6,6 @@ public class MusicPlayer {
 
    private int volume;
 
-   // IoC
    public MusicPlayer(Music music, int volume) {
       this.music = music;
       this.volume = volume;
