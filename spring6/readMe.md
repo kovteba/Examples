@@ -33,7 +33,6 @@ public class ClassicalMusic implements Music {
    public String getSong() {
       return "Playing classical music";
    }
-
 }
 ```
 ```java
@@ -45,7 +44,6 @@ public class RockMusic implements Music {
    public String getSong() {
       return "Playing rock music";
    }
-
 }
 ```
 ```java
