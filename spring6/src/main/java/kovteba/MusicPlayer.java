@@ -2,20 +2,19 @@ package kovteba;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class MusicPlayer {
 
-   @Autowired
    private Music music;
 
    private int volume;
 
-   // IoC
-   public MusicPlayer(Music music, int volume) {
+   @Autowired
+   public MusicPlayer(@Qualifier("rockMusic") Music music) {
       this.music = music;
-      this.volume = volume;
    }
 
    public void playMusic(){

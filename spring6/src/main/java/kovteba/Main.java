@@ -1,11 +1,14 @@
 package kovteba;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.GenericXmlApplicationContext;
 
 public class Main {
    public static void main(String[] args) {
 
-      ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+      GenericXmlApplicationContext context = new GenericXmlApplicationContext();
+      context.load("applicationContext.xml");
+      context.refresh();
 
       MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
 

@@ -3,7 +3,7 @@
 - [Start TomCat with Idea Configuration](tomcat1)
 - [Run Tomcat with TomCat plugins](tomcat2)
 ---
-- [Spring]()
+- __Spring__
     - [Dependency Lookup]()
         - [Dependency Pull](spring1)
         - [Contextualized Dependency](spring2)
