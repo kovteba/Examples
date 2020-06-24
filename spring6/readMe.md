@@ -20,19 +20,15 @@
 ```
 ```java
 package kovteba;
-
 public interface Music {
    String getSong();
 }
 ```
 ```java
 package kovteba;
-
 import org.springframework.stereotype.Component;
-
 @Component
 public class ClassicalMusic implements Music {
-
    @Override
    public String getSong() {
       return "Playing classical music";
@@ -42,12 +38,9 @@ public class ClassicalMusic implements Music {
 ```
 ```java
 package kovteba;
-
 import org.springframework.stereotype.Component;
-
 @Component
 public class RockMusic implements Music {
-
    @Override
    public String getSong() {
       return "Playing rock music";
@@ -57,11 +50,9 @@ public class RockMusic implements Music {
 ```
 ```java
 package kovteba;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
-
 @Component
 public class MusicPlayer {
 
@@ -80,22 +71,14 @@ public class MusicPlayer {
 ```
 ```java
 package kovteba;
-
 import org.springframework.context.support.GenericXmlApplicationContext;
-
 public class Main {
    public static void main(String[] args) {
-
       GenericXmlApplicationContext context = new GenericXmlApplicationContext();
-
       context.load("applicationContext.xml");
-
       context.refresh();
-
       MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
-
       musicPlayer.playMusic();
-
       context.close();
    }
 }
