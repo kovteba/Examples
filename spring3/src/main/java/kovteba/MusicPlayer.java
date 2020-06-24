@@ -1,7 +1,5 @@
 package kovteba;
 
-import org.springframework.beans.factory.annotation.Value;
-
 public class MusicPlayer {
 
    private Music music;

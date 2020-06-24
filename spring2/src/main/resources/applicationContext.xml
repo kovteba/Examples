@@ -9,11 +9,4 @@
         http://www.springframework.org/schema/context/spring-context.xsd
         http://www.springframework.org/schema/util
         http://www.springframework.org/schema/util/spring-util-2.5.xsd">
-
-
-
-
-
-
-
 </beans>

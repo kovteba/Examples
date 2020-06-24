@@ -10,7 +10,6 @@
         http://www.springframework.org/schema/util
         http://www.springframework.org/schema/util/spring-util-2.5.xsd">
 
-
         <bean id="classicMusicBean" class="kovteba.ClassicalMusic"/>
         <bean id="musicPlayer" class="kovteba.MusicPlayer">
             <property name="volume" value="130"/>
