@@ -25,6 +25,7 @@
 - [Bean Factory](spring13)
 - [Bean Factoty, Factory method](spring14)
 - [AOP (Logger example)](spring15)
+- [internationalization](spring16)
 - []()
 ---
 - [Compare User By Name](example1)
@@ -35,7 +36,8 @@
 - [My Stack](example6)
 - [Chess Horse](example7)
 - [Binary Tree](example8)
-- [Internationalization](internationalization)
+- [Internationalization Servlet](internationalization)
+- []()
 - []()
 ---
 # Sources

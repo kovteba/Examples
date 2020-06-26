@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring12" />
         <module name="spring13" />
+        <module name="spring16" />
         <module name="spring15" />
         <module name="internationalization" />
         <module name="tomcat2" />

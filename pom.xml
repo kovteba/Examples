@@ -39,6 +39,7 @@
         <module>spring13</module>
         <module>spring14</module>
         <module>spring15</module>
+        <module>spring16</module>
         <!--        <module>internationalization</module>-->
     </modules>
 
