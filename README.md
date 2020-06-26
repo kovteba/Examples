@@ -16,7 +16,15 @@
         - [Annotation configuration](spring6)
         - [Java configuration](spring7)
 - [Example @Value](spring5)
-- []()
+- Инициализация Bean
+    - [Init method](spring10)
+        - [XML](spring10/src/main/java/kovteba/xml)
+        - [Annotations](spring10/src/main/java/kovteba/annotations)
+    - [Interface InitializingBean](spring11)
+- [Interface BeanNameAware](spring12)
+- [Bean Factory](spring13)
+- [Bean Factoty, Factory method](spring14)
+- [AOP (Logger example)](spring15)
 - []()
 ---
 - [Compare User By Name](example1)
@@ -28,7 +36,6 @@
 - [Chess Horse](example7)
 - [Binary Tree](example8)
 - [Internationalization](internationalization)
-- []()
 - []()
 ---
 # Sources

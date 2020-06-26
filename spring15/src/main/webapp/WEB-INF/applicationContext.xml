@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="kovteba.*"/>
+
+    <bean id="myLogger" class="kovteba.utils.Logger"/>
+
+    <!--AOP-->
+    <aop:config>
+<!--        <aop:pointcut id="myControllerPointCut" expression="execution(* kovteba.controllers.MyController.*(..))"/>-->
+<!--        <aop:pointcut id="afterReturnPointCut" expression="execution(* kovteba.controllers.MyController.*(..)) and args(result)"/>-->
+
+        <aop:aspect ref="myLogger" id="myAspect">
+<!--            <aop:before method="beforeMethodInvocation" pointcut-ref="myControllerPointCut"/>-->
+<!--            <aop:after-returning method="afterReturn" pointcut-ref="afterReturnPointCut"/>-->
+<!--            <aop:after-throwing method="afterThrowing" throwing="ex" pointcut-ref="myControllerPointCut"/>-->
+
+
+            <aop:before method="beforeMethodInvocation" pointcut="execution(* kovteba.controllers.MyController.before(..))"/>
+            <aop:after-returning method="afterReturn" pointcut="execution(* kovteba.controllers.MyController.afterReturn(..)) and args(result)"/>
+            <aop:after-throwing method="afterThrowing" throwing="ex" pointcut="execution(* kovteba.controllers.MyController.afterThrow(..))"/>
+        </aop:aspect>
+    </aop:config>
+    <!--AOP-->
+
+
+</beans>
