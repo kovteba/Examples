@@ -40,6 +40,11 @@
         <module>spring14</module>
         <module>spring15</module>
         <module>spring16</module>
+        <module>aop1</module>
+        <module>aop2</module>
+        <module>aop3</module>
+        <module>aop4</module>
+        <module>aop5</module>
         <!--        <module>internationalization</module>-->
     </modules>
 

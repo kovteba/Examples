@@ -26,6 +26,11 @@
 - [Bean Factoty, Factory method](spring14)
 - [AOP (Logger example)](spring15)
 - [internationalization](spring16)
+- [AOP MethodBeforeAdvice](aop1)
+- [AOP Защита доступа к методам с использованием совета](aop2)
+- [AOP SimpleAfterReturningAdvice](aop3)
+- [AOP SimpleAroundAdvice](aop4)
+- [AOP SimpleThrowsAdvice](aop5)
 - []()
 ---
 - [Compare User By Name](example1)
