@@ -45,6 +45,7 @@
         <module>aop3</module>
         <module>aop4</module>
         <module>aop5</module>
+        <module>spring17</module>
         <!--        <module>internationalization</module>-->
     </modules>
 

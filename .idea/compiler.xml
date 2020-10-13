@@ -7,39 +7,43 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="example2" />
-        <module name="example3" />
-        <module name="tomcat2" />
-        <module name="tomcat1" />
-        <module name="spring9" />
-        <module name="spring8" />
-        <module name="example4" />
-        <module name="spring6" />
-        <module name="spring5" />
+        <module name="aop1" />
         <module name="spring4" />
+        <module name="tomcat2" />
         <module name="spring3" />
+        <module name="tomcat1" />
         <module name="spring2" />
         <module name="spring1" />
-        <module name="example8" />
-        <module name="example7" />
-        <module name="example6" />
-        <module name="example5" />
+        <module name="spring8" />
+        <module name="spring10" />
+        <module name="spring11" />
+        <module name="spring7" />
+        <module name="spring6" />
+        <module name="spring12" />
+        <module name="spring5" />
+        <module name="spring13" />
+        <module name="spring9" />
+        <module name="internationalization" />
+        <module name="spring14" />
+        <module name="spring15" />
+        <module name="spring16" />
+        <module name="spring17" />
         <module name="aop3" />
         <module name="aop2" />
-        <module name="aop1" />
-        <module name="example1" />
-        <module name="aop4" />
         <module name="aop5" />
-        <module name="internationalization" />
-        <module name="spring16" />
-        <module name="spring15" />
-        <module name="spring14" />
-        <module name="spring13" />
-        <module name="spring12" />
-        <module name="spring11" />
-        <module name="spring10" />
-        <module name="spring7" />
+        <module name="aop4" />
+        <module name="example7" />
+        <module name="example6" />
+        <module name="example8" />
+        <module name="example3" />
+        <module name="example2" />
+        <module name="example5" />
+        <module name="example4" />
+        <module name="example1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-jdbc-embedded" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
