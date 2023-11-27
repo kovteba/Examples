@@ -1,6 +1,8 @@
 package kovteba.one;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class App {
    public static void main(String[] args) {
@@ -25,6 +27,9 @@ public class App {
       System.out.println(it.next());
       it.remove();
       System.out.println(array);
+
+
+      List a = new ArrayList();
 
    }
 }

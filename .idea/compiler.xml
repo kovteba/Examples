@@ -9,8 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="aop1" />
         <module name="spring4" />
-        <module name="tomcat2" />
         <module name="spring3" />
+        <module name="tomcat2" />
         <module name="tomcat1" />
         <module name="spring2" />
         <module name="spring1" />

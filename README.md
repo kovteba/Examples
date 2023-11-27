@@ -23,14 +23,14 @@
     - [Interface InitializingBean](spring11)
 - [Interface BeanNameAware](spring12)
 - [Bean Factory](spring13)
-- [Bean Factoty, Factory method](spring14)
+- [Bean Factoty, Factory method](spring14)///////////////
 - [AOP (Logger example)](spring15)
 - [internationalization](spring16)
-- [AOP MethodBeforeAdvice](aop1)
+- [AOP MethodBeforeAdvice](aop1)/////////////////
 - [AOP Защита доступа к методам с использованием совета](aop2)
-- [AOP SimpleAfterReturningAdvice](aop3)
-- [AOP SimpleAroundAdvice](aop4)
-- [AOP SimpleThrowsAdvice](aop5)
+- [AOP SimpleAfterReturningAdvice](aop3)/////////
+- [AOP SimpleAroundAdvice](aop4)/////////////
+- [AOP SimpleThrowsAdvice](aop5)///////////////
 - [jdbcTemplate](spring17)
 - []()
 ---

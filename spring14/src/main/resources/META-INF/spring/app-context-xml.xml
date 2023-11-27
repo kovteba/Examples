@@ -6,7 +6,7 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="shaDigestFactory" 
+    <bean id="shaDigestFactory"
         class="kovteba.MessageDigestFactory"
         p:algorithmName="SHA1"/>
 

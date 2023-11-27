@@ -122,6 +122,7 @@ public class QueueImpl implements Queue {
 
     @Override
     public String toString() {
+
         if (isEmpty()) {
             return "[]";
         }

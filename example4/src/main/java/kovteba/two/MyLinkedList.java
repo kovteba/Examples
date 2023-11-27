@@ -93,6 +93,7 @@ public class MyLinkedList<T> {
      * @param index
      */
     public void remove(int index) {
+
         if (index < 0) {
             throw new IndexOutOfBoundsException("index = " + index);
         }
@@ -101,11 +102,7 @@ public class MyLinkedList<T> {
             this.firstNode = navigate(index + 1);
             this.firstNode.linkPrevious(null);
             this.firstNode.linkNext(navigate(index + 1));
-        } /*else if (index == size) {
-            this.lastNode.linkNext(null);
-            this.lastNode = navigate(index - 1);
-
-        }*/ else {
+        }  else {
             Node<T> previous = navigate(index - 1);
             Node<T> next = navigate(index + 1);
             navigate(index).setValue(null);
@@ -114,7 +111,6 @@ public class MyLinkedList<T> {
         }
 
         this.size--;
-
     }
 
     /**
@@ -150,28 +146,27 @@ public class MyLinkedList<T> {
      */
     public Node<T> navigate(int index) {
         Node<T> n = firstNode;
-//        for (int i = 1; i <= index; i++) {
         for (int i = 1; i <= index; i++) {
             n = n.getNext();
         }
         return n;
     }
 
-    public Node<T> reverseNavigate(int index) {
-        Node<T> n = lastNode;
-        for (int i = 1; i <= index; i++) {
-            n = n.getPrevious();
-        }
-        return n;
-    }
-
-    public Node<T> navigateReverse(int index) {
-        Node<T> n = navigate(size - 1);
-        for (int i = index; i >= 1; i--) {
-            n = n.getPrevious();
-        }
-        return n;
-    }
+//    public Node<T> reverseNavigate(int index) {
+//        Node<T> n = lastNode;
+//        for (int i = 1; i <= index; i++) {
+//            n = n.getPrevious();
+//        }
+//        return n;
+//    }
+//
+//    public Node<T> navigateReverse(int index) {
+//        Node<T> n = navigate(size - 1);
+//        for (int i = index; i >= 1; i--) {
+//            n = n.getPrevious();
+//        }
+//        return n;
+//    }
 
     public void testPreviousLink() {
         Node<T> n = lastNode;

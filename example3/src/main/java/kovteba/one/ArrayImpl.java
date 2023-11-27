@@ -27,7 +27,6 @@ public class ArrayImpl implements Array {
 
    }
 
-
    @Override
    public void set(int index, Object element) {
       arr[index] = element;

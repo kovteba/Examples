@@ -11,7 +11,7 @@ public class App {
       list.addFirst(2);
       list.addFirst(1);
 
-      Iterator iterator = list.iterator();
+      Iterator<Object> iterator = list.iterator();
 
       System.out.println(iterator.next());
       iterator.remove();

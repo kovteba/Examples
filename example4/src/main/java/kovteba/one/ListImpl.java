@@ -167,7 +167,6 @@ public class ListImpl implements List {
 
         private Node head;
 
-
         private Node current;
 
         private Node next;
