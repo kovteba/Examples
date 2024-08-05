@@ -1,5 +1,6 @@
 # Examples
 
+- [SQRC](testfolder/CQRS.pdf)
 - [Start TomCat with Idea Configuration](tomcat1)
 - [Run Tomcat with TomCat plugins](tomcat2)
 ---
