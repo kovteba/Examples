@@ -1,6 +1,7 @@
 # Examples
 
 - [SQRC.pdf](testfolder/CQRS.pdf)
+- [SQRC.html](testfolder/CQRS.html)
 - [SQRC.adoc](testfolder/CQRS.adoc)
 - [Start TomCat with Idea Configuration](tomcat1)
 - [Run Tomcat with TomCat plugins](tomcat2)
